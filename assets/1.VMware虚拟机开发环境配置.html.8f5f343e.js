@@ -1,0 +1,45 @@
+import{_ as l}from"./plugin-vue_export-helper.21dcd24c.js";import{o as c,c as t,b as n,a as e,e as i,d as s,r as o}from"./app.a63c222e.js";const r={},d=i('<h1 id="vmware\u865A\u62DF\u673A\u5F00\u53D1\u73AF\u5883\u914D\u7F6E" tabindex="-1"><a class="header-anchor" href="#vmware\u865A\u62DF\u673A\u5F00\u53D1\u73AF\u5883\u914D\u7F6E" aria-hidden="true">#</a> VMware\u865A\u62DF\u673A\u5F00\u53D1\u73AF\u5883\u914D\u7F6E</h1><h2 id="_1-\u865A\u62DF\u673A\u548Cubuntu\u4E0B\u8F7D" tabindex="-1"><a class="header-anchor" href="#_1-\u865A\u62DF\u673A\u548Cubuntu\u4E0B\u8F7D" aria-hidden="true">#</a> 1.\u865A\u62DF\u673A\u548Cubuntu\u4E0B\u8F7D</h2><p>\u94FE\u63A5\uFF1Ahttps://pan.baidu.com/s/1qth--colwvzO-Oj0j6uiMg \u63D0\u53D6\u7801\uFF1Ayyds</p><p>\u7834\u89E3\u81EA\u5DF1\u7F51\u4E0A\u627E\u4E2A\u5BC6\u94A5\u7834\u89E3\u4E00\u4E0B</p><h2 id="_2-\u5B89\u88C5" tabindex="-1"><a class="header-anchor" href="#_2-\u5B89\u88C5" aria-hidden="true">#</a> 2.\u5B89\u88C5</h2>',5),u={href:"https://zhuanlan.zhihu.com/p/141033713",target:"_blank",rel:"noopener noreferrer"},p=s("2020\u6700\u65B0\u7248VMware\u5B89\u88C5Ubuntu20.04\u6559\u7A0B(\u5DE8\u7EC6)\uFF01 - \u77E5\u4E4E (zhihu.com)"),v=n("h2",{id:"_3-\u5B89\u88C5gcc\u548Cvmware-tools",tabindex:"-1"},[n("a",{class:"header-anchor",href:"#_3-\u5B89\u88C5gcc\u548Cvmware-tools","aria-hidden":"true"},"#"),s(" 3.\u5B89\u88C5gcc\u548CVMware tools")],-1),m=n("p",null,"gcc -v\u770B\u6709\u6CA1\u6709\uFF0C\u6CA1\u6709\u4F1A\u63D0\u793A\u4F60\u5B89\u88C5",-1),h=n("h2",{id:"_4-\u5171\u4EAB\u6587\u4EF6\u5939\u548C\u5E38\u89C1\u95EE\u9898\u89E3\u51B3",tabindex:"-1"},[n("a",{class:"header-anchor",href:"#_4-\u5171\u4EAB\u6587\u4EF6\u5939\u548C\u5E38\u89C1\u95EE\u9898\u89E3\u51B3","aria-hidden":"true"},"#"),s(" 4.\u5171\u4EAB\u6587\u4EF6\u5939\u548C\u5E38\u89C1\u95EE\u9898\u89E3\u51B3")],-1),b={href:"https://www.cnblogs.com/ICdesignverification/p/15733102.html",target:"_blank",rel:"noopener noreferrer"},k=s("\u89E3\u51B3VMware\u4E2D\u5171\u4EAB\u6587\u4EF6\u5939hgfs\u7684\u6743\u9650\u95EE\u9898 - \u8FB0\u98CE\u9606\u82D1 - \u535A\u5BA2\u56ED (cnblogs.com)"),_=i(`<div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token number">1</span>. \u524D\u8A00
+\u4EE5\u524D\u90FD\u662F\u5728Mac\u4E0B\u7684Parallels Desktop\u4E2D\u5B89Ubuntu\u7528\uFF0C\u5176\u201C\u5171\u4EAB\u6587\u4EF6\u5939\u201D\u5F88\u65B9\u4FBF\uFF0C\u4E5F\u6CA1\u51FA\u73B0\u8FC7\u4EC0\u4E48\u95EE\u9898\u3002
+
+\u6700\u8FD1\u6362\u4E86Windows\u4E0BVMware\u4E2D\u5F04\u4E86\u4E2AUbuntu\u8DD1\u6697\u7F51\u722C\u866B\uFF0C\u4E3A\u4E86\u65B9\u4FBF\u7F16\u7801\u6211\u60F3\u5F04\u4E2A\u5171\u4EAB\u6587\u4EF6\u5939\uFF0C\u4F46\u5374\u51FA\u73B0\u4E86\u83AB\u540D\u5176\u5999\u7684\u72B6\u51B5\u3002
+
+<span class="token number">2</span>. \u51FA\u73B0\u95EE\u9898\u6B65\u9AA4
+\u6309\u7167\u7F51\u4E0A\u7684\u6B65\u9AA4\u57FA\u672C\u5982\u4E0B\uFF1A
+
+<span class="token number">1</span>. \u5148\u5728VMware\u8BBE\u7F6E\u4E2D\u8BBE\u7F6E\u5171\u4EAB\u6587\u4EF6\u5939\u865A\u62DF\u673A\u8BBE\u7F6E\u91CC\u8BBE\u7F6E\u6587\u4EF6\u5939\u5171\u4EAB
+
+<span class="token number">2</span>. \u5982\u679C\u6CA1\u6709hgfs\u6587\u4EF6\u5939\u5219\u521B\u5EFA\uFF0C\u7136\u540E\u8FDB\u5165\u865A\u62DF\u673A\u6302\u8F7D\u6587\u4EF6\u5939
+
+<span class="token comment"># \u6CA1\u6709\u5219\u521B\u5EFA </span>
+<span class="token function">sudo</span> <span class="token function">mkdir</span> hgfs 
+<span class="token comment"># \u6302\u8F7D\u6587\u4EF6\u5939 </span>
+<span class="token function">sudo</span> vmhgfs-fuse .host:/ /mnt/hgfs
+\u8FD9\u4E2A\u65F6\u5019\u5C31\u4F1A\u51FA\u73B0hgfs\u6587\u4EF6\u5939\u6743\u9650\u95EE\u9898\uFF0C\u53EA\u6709root\u4E0B\u624D\u80FD\u591F\u8BBF\u95EE\u3002
+
+
+hgfs\u5171\u4EAB\u6587\u4EF6\u5939\u51FA\u73B0\u6743\u9650\u95EE\u9898
+
+\u8FD9\u4E2A\u65F6\u5019\u65E0\u8BBA\u4F7F\u7528chmod\u8FD8\u662Fchown\u5747\u65E0\u6CD5\u8D4B\u4E88hgfs\u7684\u6743\u9650\uFF0C\u7F51\u4E0A\u7684\u65B9\u6CD5\u57FA\u672C\u65E0\u6548\uFF0C\u4EE5\u4E0B\u65B9\u6CD5\u90FD\u4E0D\u8981\u8BD5\u4E86\uFF01
+
+<span class="token function">chmod</span> <span class="token number">777</span> -R 
+<span class="token function">chown</span> username:group /mnt/hgfs 
+<span class="token function">usermod</span> -aG vboxsf username 
+<span class="token number">3</span>. \u89E3\u51B3\u65B9\u6CD5
+\u8FD9\u91CC\u7279\u522B\u611F\u8C22Cool Pages Blog\u63D0\u4F9B\u7684\u601D\u8DEF\uFF0C\u611F\u89C9\u535A\u4E3B\u4E5F\u662F\u66FF\u6211\u4EEC\u8E29\u4E86\u4E0D\u5C11\u5751\uFF0C\u867D\u7136\u535A\u4E3B\u8E29\u7684\u6211\u57FA\u672C\u90FD\u8E29\u4E86\u2026
+
+<span class="token number">1</span>. \u5982\u679C\u4E4B\u524D\u5DF2\u7ECF\u6302\u8F7Dhgfs\uFF0C\u5148\u53D6\u6D88\u6302\u8F7D
+
+<span class="token function">sudo</span> <span class="token function">umount</span> /mnt/hgfs
+Bash
+<span class="token number">2</span>. \u91CD\u65B0\u7528\u4EE5\u4E0B\u547D\u4EE4\u6302\u8F7D\u5373\u53EF\u4E0B\u9762\u547D\u4EE4\u4E2D\u7684uid\u548Cgid\u9700\u8981\u6839\u636E\u4F60\u7684ubuntu\u7528\u6237uid\u6765\u51B3\u5B9A\uFF0C\u8F93\u5165id\u547D\u4EE4\u5373\u53EF\u67E5\u8BE2
+
+<span class="token function">sudo</span> /usr/bin/vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other -o <span class="token assign-left variable">uid</span><span class="token operator">=</span><span class="token number">1000</span> -o <span class="token assign-left variable">gid</span><span class="token operator">=</span><span class="token number">1000</span> -o <span class="token assign-left variable">umask</span><span class="token operator">=</span>022
+<span class="token number">3</span>. \u53EF\u4EE5\u770B\u5230\u6743\u9650\u5DF2\u7ECF\u6B63\u5E38\uFF0C\u975Eroot\u4E0B\u5747\u53EF\u8BBF\u95EEhgfs\u6587\u4EF6\u5939\u6743\u9650\u5DF2\u7ECF\u6B63\u5E38
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="_5-ide" tabindex="-1"><a class="header-anchor" href="#_5-ide" aria-hidden="true">#</a> 5.IDE</h2><p>\u6211\u9009\u62E9vs code</p><p>\u5B89\u88C5\u8FD9\u4E9B\u63D2\u4EF6</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>C/C++   	C/C++ Extension Pack	Chinese  Code Runner
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token keyword">int</span> argc<span class="token punctuation">,</span> <span class="token keyword">char</span> <span class="token operator">*</span><span class="token operator">*</span>argv<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">&quot;hello world\\n&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">//\u53F3\u952Erun code\u8BD5\u4E00\u4E0B\u6210\u529F\u5C31\u597D\u4E86</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,6);function f(g,w){const a=o("ExternalLinkIcon");return c(),t("div",null,[d,n("p",null,[n("a",u,[p,e(a)])]),v,m,h,n("p",null,[n("a",b,[k,e(a)])]),_])}var M=l(r,[["render",f],["__file","1.VMware\u865A\u62DF\u673A\u5F00\u53D1\u73AF\u5883\u914D\u7F6E.html.vue"]]);export{M as default};
